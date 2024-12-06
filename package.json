@@ -1,0 +1,25 @@
+{
+  "name": "check-if-version-bumped",
+  "version": "2.0.3",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/del-systems/check-if-version-bumped.git"
+  },
+  "author": "Shakhzod Ikromov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/del-systems/check-if-version-bumped/issues"
+  },
+  "homepage": "https://github.com/del-systems/check-if-version-bumped#readme",
+  "dependencies": {
+    "@actions/core": "^1.10.1",
+    "@actions/github": "^6.0.0",
+    "node-fetch": "^2.6.1",
+    "semver": "^7.6.0"
+  }
+}
